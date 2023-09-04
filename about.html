@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Kami</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <!------Navigation------>
+
+    <section class="rub-container">
+        <nav>
+            <a href=""><img src="rol.png"></a>
+            <div class="nav-link" id="navlink">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="Produk.html">Produk</a></li>
+                    <li><a href="Jaket.html">Jaket</a></li>
+                    <li><a href="baju.html">Baju</a></li>
+                    <li><a href="celana.html">Celana</a></li>
+                    <li><a href="sepatu.html">Sepatu</a></li>
+                    <li><a href="about.html">Tentang</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="tulisan">
+        <h1>Tentang</h1>
+        </div>
+    </section>
+
+    <section class="wrapper">
+        <p>ini hanya praktek pembuatan website tentang penjualan,
+        <br>atau barang-barang yang dijual onnline. ini hanya contoh gambar yang diambil di website
+        <br>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         Reiciendis nihil quam illo sit quo minima nesciunt quae nulla 
+         <br>nobis amet!</p>
+    </section>
+
+    <!------Footer ko------>
+
+    <section class="footer">
+        <h4>Website Kami</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse nobis enim cupiditate 
+        <br>eaque eligendi aliquam dignissimos repellatest aperiam animi.</p>
+        <p>&copy; 2023.<b>Tanaka Nirang.</b> Website Kami.</p>
+    </section>
+
+
+
+    <script>
+
+        var navlink = document.getElementById("navlink");
+        function showMenu() {
+            navlink.style.right = "0";
+        }
+        function hideMenu() {
+            navlink.style.right = "-200px";
+        }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Kami</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <!------Navigation------>
+
+    <section class="rub-container">
+        <nav>
+            <a href=""><img src="rol.png"></a>
+            <div class="nav-link" id="navlink">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="Produk.html">Produk</a></li>
+                    <li><a href="Jaket.html">Jaket</a></li>
+                    <li><a href="baju.html">Baju</a></li>
+                    <li><a href="celana.html">Celana</a></li>
+                    <li><a href="sepatu.html">Sepatu</a></li>
+                    <li><a href="about.html">Tentang</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="tulisan">
+        <h1>Contact</h1>
+        </div>
+    </section>
+
+    <section class="blog-google">
+
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                <span>
+                    <h5>Lokasi tempat tinggal</h5>
+                    <p>Ruteng, Kabupaten Manggarai, Nusa Tenggara Timur</p>
+                </span>
+                </div>
+                <div>
+                <span>
+                    <h5>Nomor Telepon</h5>
+                    <p>085-335-427-030</p>
+                </span>
+                </div>
+                <div>
+                <span>
+                    <h5>Alamat Email</h5>
+                    <p>tanakanirang@gmail.com</p>
+                </span>
+                </div>
+            </div>
+            <div class="contact-col">
+
+             <form action="">
+                <input type="text" placeholder="Enter your name" required>
+                <input type="email" placeholder="Enter email address" required>
+                <input type="text" placeholder="Enter your subject" required>
+                <textarea rows="8" placeholder="Message" required></textarea>
+                <button type="submit" class="hero-btn red-btn">Send 
+                Message</button>
+                </form>
+               </div>
+            </div>
+
+    </section>
+
+    <!------Footer ko------>
+
+    <section class="footer">
+        <h4>Website Kami</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse nobis enim cupiditate 
+        <br>eaque eligendi aliquam dignissimos repellatest aperiam animi.</p>
+        <p>&copy; 2023.<b>Tanaka Nirang.</b> Website Kami.</p>
+    </section>
+
+
+
+    <script>
+
+        var navlink = document.getElementById("navlink");
+        function showMenu() {
+            navlink.style.right = "0";
+        }
+        function hideMenu() {
+            navlink.style.right = "-200px";
+        }
+
+    </script>
+</body>
+</html>
